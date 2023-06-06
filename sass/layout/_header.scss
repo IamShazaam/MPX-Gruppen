@@ -1,0 +1,161 @@
+.header {
+    height: 100vh;
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba($color-primary-light, 0.4), 
+        rgba($color-primary-dark, 0.8)), 
+        url(/images/main_mpxgruppen.jpg);
+    background-size: cover;
+    background-position: top;
+    position:relative;
+    // margin-left: 10px;
+    /* clip-path: polygon(x y, x y, x); */
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    
+    
+    &__logo-box {
+        /**/
+        position: absolute;
+        /* top: 40px;
+        left: 40px; */
+        top: 4rem;
+        left: 4rem;
+    }
+
+    &__logo {
+        /**/
+        height: 10rem;
+    }
+
+    &__text-box {
+        /**/
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        /* background-color: red; */
+        transform: translate(-50%, -50%);
+        /* Making the whole box sit in the center */
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    
+    .header {
+
+                &__logo-box {
+
+                    /**/
+                    top: 2rem;
+                    left: 2rem;
+
+                }
+            
+                &__logo {
+
+                    /**/
+                    height: 7rem;
+
+                }
+
+                &__text-box {
+
+                    & .heading-primary {
+                        /**/
+                        margin-left: 2.5rem;
+                    
+                        &--main {
+                            /**/
+                            font-size: 2rem;
+                        }
+
+
+                        &--sub {
+                            font-size:1rem;
+                        }
+                        
+                    }
+
+                }
+            }
+
+    .section-about  {
+
+        height: 120vh;
+        padding: 50% 10%;
+        clip-path: polygon(0 16.75%, 100% 0, 100% 100vh, 0 100%);
+        // margin-bottom: 10rem;
+
+
+    }
+    
+    .section-booknings {
+
+        height: 120vh;
+        padding: 50% 10%;
+        margin-top: -12.75rem;
+        clip-path: polygon(0 20vh, 100% 0, 100% 120vh, 0 100%);
+        
+    }
+
+    .hidden_375 {
+
+        display: none;
+        
+    }
+
+    .composition {
+    
+        &__photo {
+            width: 225%;
+            margin-top: -5rem;
+    
+            &--p1 {
+                left: 3.5rem;
+                top: 2rem;
+            }
+    
+            &--p2 {
+                left: 0rem;
+                // right: 0;
+                top: 9rem;
+            }
+    
+            &--p3 {
+                left: 3.5rem;
+                top: 18rem;
+            }
+    
+            &--p4 {
+                left: 0rem;
+                top: 27rem;
+            }
+        }
+    
+        //Making the hover on __photo look better
+        &:hover &__photo:not(:hover) {
+             transform: scale(.9);
+        }
+    }
+        
+    .heading-secondary {
+
+        font-size: 2rem;
+
+        &__andra {
+            color: rgb(218, 213, 213);
+        }
+
+    }
+
+
+    .card {
+
+        width: 375px;
+        flex-direction: column;
+
+    }
+
+}
+    
