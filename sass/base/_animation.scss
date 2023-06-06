@@ -1,0 +1,57 @@
+@keyframes movingLeft {
+    /**/
+    0% {
+        /**/
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+
+    80% {
+        /**/
+        transform: translateX(2rem);
+    }
+    
+    100% {
+        /**/
+        opacity: 1;
+        transform: translate(0);
+    }
+} 
+
+@keyframes movingRight {
+    /**/
+    0% {
+        /**/
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+
+    80% {
+        /**/
+        transform: translateX(-2rem);
+    }
+    
+    100% {
+        /**/
+        opacity: 1;
+        transform: translate(0);
+    }
+} 
+
+@keyframes movingButton {
+    /**/
+    0% {
+        /**/
+        opacity: 0;
+        transform: translateY(10rem);
+    }
+    
+    100% {
+        /**/
+        opacity: 1;
+        transform: translate(0);
+    }
+} 
+
+ 
+
