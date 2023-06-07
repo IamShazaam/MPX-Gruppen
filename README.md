@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="https://yourimageshare.com/ib/h0pHNzg6XA" alt="Node.js">
+</p>
 # MPX Gruppen
 
 Loading MPX page
@@ -46,4 +49,6 @@ The following scripts are available:
 This project is licensed under the ISC License.
 
 ![Sass](https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/sass.svg)
-![Node.js](https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg)
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Node.js">
+</p>
