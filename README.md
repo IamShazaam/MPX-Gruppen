@@ -46,4 +46,4 @@ The following scripts are available:
 This project is licensed under the ISC License.
 
 ![Sass](https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/sass.svg)
-![Node.js](https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/node-dot-js.svg)
+![Node.js](https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg)
