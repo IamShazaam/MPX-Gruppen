@@ -6,6 +6,15 @@
     box-sizing: inherit;
 }
 
+::-webkit-scrollbar {
+    width: 12px; /* Adjust the width as needed */
+  }
+  
+::-webkit-scrollbar-thumb {
+    background-color: $color-primary-light; /* Set your desired color */
+    border-radius: 10px; /* Adjust the border radius as needed */
+}
+
 html {
     font-size: 62.5%;
 }
