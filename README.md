@@ -1,3 +1,5 @@
+![Background Image](https://mpx.teampereda.com/images/screenshot_1.png)
+
 # MPX Gruppen
 
 Loading MPX page
